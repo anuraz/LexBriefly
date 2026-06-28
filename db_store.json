@@ -1,0 +1,1149 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "@anuraz",
+      "password_hash": "7604f8a709c82de70fbb2cc590bff34a2e67545d2672732a99eb9930ea12abde",
+      "role_id": "r1",
+      "name": "Anurag Sharma",
+      "email": "anuraz.uz@gmail.com"
+    },
+    {
+      "id": "u2",
+      "username": "@studentdemo",
+      "password_hash": "b2a1f4fd0a460606b34c8913e2981dac8d2e283d778aba586c416ee2629bfa54",
+      "role_id": "r3",
+      "name": "Siddharth Mehra",
+      "email": "student@lexbriefly.com"
+    }
+  ],
+  "roles": [
+    {
+      "id": "r1",
+      "name": "Administrator",
+      "permissions": [
+        "*"
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "Editor",
+      "permissions": [
+        "manage_content"
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "Student",
+      "permissions": [
+        "view_dashboard"
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "id": "s1",
+      "code": "LB-106",
+      "name": "Jurisprudence -I (Legal Method) (Revised Course Material)",
+      "semester": 1
+    },
+    {
+      "id": "s2",
+      "code": "LB-102",
+      "name": "Principles of Contract",
+      "semester": 1
+    },
+    {
+      "id": "s3",
+      "code": "LB-103",
+      "name": "Law of Torts",
+      "semester": 1
+    },
+    {
+      "id": "s4",
+      "code": "LB-104",
+      "name": "Law of Crimes- I (Bharatiya Nyaya Sanhita, 2023)",
+      "semester": 1
+    },
+    {
+      "id": "s5",
+      "code": "LB-105",
+      "name": "Family Law I",
+      "semester": 1
+    },
+    {
+      "id": "s6",
+      "code": "LB-201",
+      "name": "Law of Evidence (Bharatiya Sakshya Adhiniyam, 2023)",
+      "semester": 2
+    },
+    {
+      "id": "s7",
+      "code": "LB-202",
+      "name": "Family Law",
+      "semester": 2
+    },
+    {
+      "id": "s8",
+      "code": "LB-203",
+      "name": "Law of Crimes- II (The Bharatiya Nagarik Suraksha Sanhita, 2023)",
+      "semester": 2
+    },
+    {
+      "id": "s9",
+      "code": "LB-204",
+      "name": "Property Law",
+      "semester": 2
+    },
+    {
+      "id": "s10",
+      "code": "LB-205",
+      "name": "Public International Law",
+      "semester": 2
+    },
+    {
+      "id": "s11",
+      "code": "LB-301",
+      "name": "Constitutional Law – I",
+      "semester": 3
+    },
+    {
+      "id": "s12",
+      "code": "LB-302",
+      "name": "Code of Civil Procedure and Limitation Act",
+      "semester": 3
+    },
+    {
+      "id": "s13",
+      "code": "LB-303",
+      "name": "Company Law",
+      "semester": 3
+    },
+    {
+      "id": "s14",
+      "code": "LB-304",
+      "name": "Special Contracts",
+      "semester": 3
+    },
+    {
+      "id": "s15",
+      "code": "LB-3031",
+      "name": "Media and Law",
+      "semester": 3
+    },
+    {
+      "id": "s16",
+      "code": "LB-3032",
+      "name": "Private International Law",
+      "semester": 3
+    },
+    {
+      "id": "s17",
+      "code": "LB-3034",
+      "name": "White Collar Crimes",
+      "semester": 3
+    },
+    {
+      "id": "s18",
+      "code": "LB-401",
+      "name": "Constitution Law",
+      "semester": 4
+    },
+    {
+      "id": "s19",
+      "code": "LB-402",
+      "name": "Administrative Law",
+      "semester": 4
+    },
+    {
+      "id": "s20",
+      "code": "LB-403",
+      "name": "Labour Law",
+      "semester": 4
+    },
+    {
+      "id": "s21",
+      "code": "LB-404",
+      "name": "Interpretation of Statutes and Legislative Drafting (Course Structure)",
+      "semester": 4
+    },
+    {
+      "id": "s22",
+      "code": "LB-4031",
+      "name": "Gender Justice & Feminist Jurisprudence",
+      "semester": 4
+    },
+    {
+      "id": "s23",
+      "code": "LB-4032",
+      "name": "International Institutions",
+      "semester": 4
+    },
+    {
+      "id": "s24",
+      "code": "LB-4033",
+      "name": "Competition Law",
+      "semester": 4
+    },
+    {
+      "id": "s25",
+      "code": "LB-4034",
+      "name": "Legislative Drafting (OLD)",
+      "semester": 4
+    },
+    {
+      "id": "s26",
+      "code": "LB-4035",
+      "name": "Humanitarian Law and Refugee Law",
+      "semester": 4
+    },
+    {
+      "id": "s27",
+      "code": "LB-4036",
+      "name": "Intellectual Property Rights Law-I",
+      "semester": 4
+    },
+    {
+      "id": "s28",
+      "code": "LB-501",
+      "name": "Moot Court Exercise and Internship",
+      "semester": 5
+    },
+    {
+      "id": "s29",
+      "code": "LB-502",
+      "name": "Drafting, Pleading and Conveyance",
+      "semester": 5
+    },
+    {
+      "id": "s30",
+      "code": "LB-503",
+      "name": "Industrial Law (including IDRA)",
+      "semester": 5
+    },
+    {
+      "id": "s31",
+      "code": "LB-5031",
+      "name": "Information Technology Law",
+      "semester": 5
+    },
+    {
+      "id": "s32",
+      "code": "LB-5033",
+      "name": "Criminology",
+      "semester": 5
+    },
+    {
+      "id": "s33",
+      "code": "LB-5034",
+      "name": "International Trade Law",
+      "semester": 5
+    },
+    {
+      "id": "s34",
+      "code": "LB-5035",
+      "name": "Rent Control and Slum Clearance",
+      "semester": 5
+    },
+    {
+      "id": "s35",
+      "code": "LB-5036",
+      "name": "Business Regulations",
+      "semester": 5
+    },
+    {
+      "id": "s36",
+      "code": "LB-5037",
+      "name": "Intellectual Property Rights Law-II",
+      "semester": 5
+    },
+    {
+      "id": "s37",
+      "code": "LB-504",
+      "name": "Principles of Taxation Law",
+      "semester": 5
+    },
+    {
+      "id": "s38",
+      "code": "LB-601",
+      "name": "Advocacy Professional Ethics and Accountancy for Lawyers",
+      "semester": 6
+    },
+    {
+      "id": "s39",
+      "code": "LB-602",
+      "name": "Alternative Dispute Resolution",
+      "semester": 6
+    },
+    {
+      "id": "s40",
+      "code": "LB-603",
+      "name": "Environmental Law",
+      "semester": 6
+    },
+    {
+      "id": "s41",
+      "code": "LB-604",
+      "name": "Jurisprudence-II (New)",
+      "semester": 6
+    },
+    {
+      "id": "s42",
+      "code": "LB-6031",
+      "name": "Interpretation of Statutes (OLD)",
+      "semester": 6
+    },
+    {
+      "id": "s43",
+      "code": "LB-6032",
+      "name": "Insurance and Banking Law",
+      "semester": 6
+    },
+    {
+      "id": "s44",
+      "code": "LB-6033",
+      "name": "Election Laws",
+      "semester": 6
+    },
+    {
+      "id": "s45",
+      "code": "LB-6034",
+      "name": "Minor Acts and Supreme Courts Rules",
+      "semester": 6
+    }
+  ],
+  "subject_sections": [
+    {
+      "id": "sec-LB-106-notes",
+      "subject_id": "s1",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-106-pyqs",
+      "subject_id": "s1",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-106-videos",
+      "subject_id": "s1",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-102-notes",
+      "subject_id": "s2",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-102-pyqs",
+      "subject_id": "s2",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-102-videos",
+      "subject_id": "s2",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-103-notes",
+      "subject_id": "s3",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-103-pyqs",
+      "subject_id": "s3",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-103-videos",
+      "subject_id": "s3",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-104-notes",
+      "subject_id": "s4",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-104-pyqs",
+      "subject_id": "s4",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-104-videos",
+      "subject_id": "s4",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-105-notes",
+      "subject_id": "s5",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-105-pyqs",
+      "subject_id": "s5",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-105-videos",
+      "subject_id": "s5",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-201-notes",
+      "subject_id": "s6",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-201-pyqs",
+      "subject_id": "s6",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-201-videos",
+      "subject_id": "s6",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-202-notes",
+      "subject_id": "s7",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-202-pyqs",
+      "subject_id": "s7",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-202-videos",
+      "subject_id": "s7",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-203-notes",
+      "subject_id": "s8",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-203-pyqs",
+      "subject_id": "s8",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-203-videos",
+      "subject_id": "s8",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-204-notes",
+      "subject_id": "s9",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-204-pyqs",
+      "subject_id": "s9",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-204-videos",
+      "subject_id": "s9",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-205-notes",
+      "subject_id": "s10",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-205-pyqs",
+      "subject_id": "s10",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-205-videos",
+      "subject_id": "s10",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-301-notes",
+      "subject_id": "s11",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-301-pyqs",
+      "subject_id": "s11",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-301-videos",
+      "subject_id": "s11",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-302-notes",
+      "subject_id": "s12",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-302-pyqs",
+      "subject_id": "s12",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-302-videos",
+      "subject_id": "s12",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-303-notes",
+      "subject_id": "s13",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-303-pyqs",
+      "subject_id": "s13",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-303-videos",
+      "subject_id": "s13",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-304-notes",
+      "subject_id": "s14",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-304-pyqs",
+      "subject_id": "s14",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-304-videos",
+      "subject_id": "s14",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-3031-notes",
+      "subject_id": "s15",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-3031-pyqs",
+      "subject_id": "s15",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-3031-videos",
+      "subject_id": "s15",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-3032-notes",
+      "subject_id": "s16",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-3032-pyqs",
+      "subject_id": "s16",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-3032-videos",
+      "subject_id": "s16",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-3034-notes",
+      "subject_id": "s17",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-3034-pyqs",
+      "subject_id": "s17",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-3034-videos",
+      "subject_id": "s17",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-401-notes",
+      "subject_id": "s18",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-401-pyqs",
+      "subject_id": "s18",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-401-videos",
+      "subject_id": "s18",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-402-notes",
+      "subject_id": "s19",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-402-pyqs",
+      "subject_id": "s19",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-402-videos",
+      "subject_id": "s19",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-403-notes",
+      "subject_id": "s20",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-403-pyqs",
+      "subject_id": "s20",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-403-videos",
+      "subject_id": "s20",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-404-notes",
+      "subject_id": "s21",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-404-pyqs",
+      "subject_id": "s21",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-404-videos",
+      "subject_id": "s21",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-4031-notes",
+      "subject_id": "s22",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-4031-pyqs",
+      "subject_id": "s22",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-4031-videos",
+      "subject_id": "s22",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-4032-notes",
+      "subject_id": "s23",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-4032-pyqs",
+      "subject_id": "s23",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-4032-videos",
+      "subject_id": "s23",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-4033-notes",
+      "subject_id": "s24",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-4033-pyqs",
+      "subject_id": "s24",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-4033-videos",
+      "subject_id": "s24",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-4034-notes",
+      "subject_id": "s25",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-4034-pyqs",
+      "subject_id": "s25",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-4034-videos",
+      "subject_id": "s25",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-4035-notes",
+      "subject_id": "s26",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-4035-pyqs",
+      "subject_id": "s26",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-4035-videos",
+      "subject_id": "s26",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-4036-notes",
+      "subject_id": "s27",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-4036-pyqs",
+      "subject_id": "s27",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-4036-videos",
+      "subject_id": "s27",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-501-notes",
+      "subject_id": "s28",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-501-pyqs",
+      "subject_id": "s28",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-501-videos",
+      "subject_id": "s28",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-502-notes",
+      "subject_id": "s29",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-502-pyqs",
+      "subject_id": "s29",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-502-videos",
+      "subject_id": "s29",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-503-notes",
+      "subject_id": "s30",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-503-pyqs",
+      "subject_id": "s30",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-503-videos",
+      "subject_id": "s30",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-5031-notes",
+      "subject_id": "s31",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-5031-pyqs",
+      "subject_id": "s31",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-5031-videos",
+      "subject_id": "s31",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-5033-notes",
+      "subject_id": "s32",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-5033-pyqs",
+      "subject_id": "s32",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-5033-videos",
+      "subject_id": "s32",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-5034-notes",
+      "subject_id": "s33",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-5034-pyqs",
+      "subject_id": "s33",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-5034-videos",
+      "subject_id": "s33",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-5035-notes",
+      "subject_id": "s34",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-5035-pyqs",
+      "subject_id": "s34",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-5035-videos",
+      "subject_id": "s34",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-5036-notes",
+      "subject_id": "s35",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-5036-pyqs",
+      "subject_id": "s35",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-5036-videos",
+      "subject_id": "s35",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-5037-notes",
+      "subject_id": "s36",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-5037-pyqs",
+      "subject_id": "s36",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-5037-videos",
+      "subject_id": "s36",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-504-notes",
+      "subject_id": "s37",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-504-pyqs",
+      "subject_id": "s37",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-504-videos",
+      "subject_id": "s37",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-601-notes",
+      "subject_id": "s38",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-601-pyqs",
+      "subject_id": "s38",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-601-videos",
+      "subject_id": "s38",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-602-notes",
+      "subject_id": "s39",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-602-pyqs",
+      "subject_id": "s39",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-602-videos",
+      "subject_id": "s39",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-603-notes",
+      "subject_id": "s40",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-603-pyqs",
+      "subject_id": "s40",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-603-videos",
+      "subject_id": "s40",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-604-notes",
+      "subject_id": "s41",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-604-pyqs",
+      "subject_id": "s41",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-604-videos",
+      "subject_id": "s41",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-6031-notes",
+      "subject_id": "s42",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-6031-pyqs",
+      "subject_id": "s42",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-6031-videos",
+      "subject_id": "s42",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-6032-notes",
+      "subject_id": "s43",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-6032-pyqs",
+      "subject_id": "s43",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-6032-videos",
+      "subject_id": "s43",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-6033-notes",
+      "subject_id": "s44",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-6033-pyqs",
+      "subject_id": "s44",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-6033-videos",
+      "subject_id": "s44",
+      "name": "videos"
+    },
+    {
+      "id": "sec-LB-6034-notes",
+      "subject_id": "s45",
+      "name": "notes"
+    },
+    {
+      "id": "sec-LB-6034-pyqs",
+      "subject_id": "s45",
+      "name": "pyqs"
+    },
+    {
+      "id": "sec-LB-6034-videos",
+      "subject_id": "s45",
+      "name": "videos"
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat1",
+      "section_id": "sec-LB-106-notes",
+      "title": "Introduction to Legal Method",
+      "type": "pdf",
+      "url": "juris_1_notes.pdf",
+      "file_size": "1.2 MB",
+      "is_published": true
+    },
+    {
+      "id": "mat2",
+      "section_id": "sec-LB-102-notes",
+      "title": "General Principles of Indian Contract Act",
+      "type": "pdf",
+      "url": "contract_notes.pdf",
+      "file_size": "2.4 MB",
+      "is_published": true
+    },
+    {
+      "id": "mat3",
+      "section_id": "sec-LB-103-notes",
+      "title": "Torts Lecture Slidebook",
+      "type": "ppt",
+      "url": "torts_notes.pdf",
+      "file_size": "3.5 MB",
+      "is_published": true
+    }
+  ],
+  "case_notes": [
+    {
+      "id": "case1",
+      "name": "Kesavananda Bharati v. State of Kerala",
+      "citation": "(1973) 4 SCC 225",
+      "court": "Supreme Court of India",
+      "subject": "Constitutional Law",
+      "bench": "S.M. Sikri (CJI), J.M. Shelat, H.R. Khanna, etc.",
+      "date": "April 24, 1973",
+      "facts": "The validity of the Kerala Land Reforms Act was challenged. The primary constitutional issue was whether the parliament possessed unlimited authority to amend the Constitution.",
+      "issues": "What is the true scope and extent of the amending power of Parliament under Article 368?",
+      "ratio": "The Supreme Court, by a thin 7:6 majority, established the legendary 'Basic Structure Doctrine'. Parliament is authorized to modify any and all portions, provided such amendments do not compromise its fundamental core.",
+      "takeaways": "Permanently safeguarded essential constitutional principles and protected citizen liberty.",
+      "status": "published"
+    },
+    {
+      "id": "case2",
+      "name": "Maneka Gandhi v. Union of India",
+      "citation": "AIR 1978 SC 597",
+      "court": "Supreme Court of India",
+      "subject": "Constitutional Law",
+      "bench": "M.H. Beg (CJI), Y.V. Chandrachud, P.N. Bhagwati, etc.",
+      "date": "January 25, 1978",
+      "facts": "The petitioner's passport was impounded by the passport authorities under Section 10(3)(c) of the Passports Act in public interest.",
+      "issues": "Does Article 21 require procedural fairness ('due process')? Is right to travel a personal liberty?",
+      "ratio": "Interpreted Article 21 expansively. Procedure established by law must be 'just, fair, and reasonable'.",
+      "takeaways": "Merged Articles 14, 19, and 21 into the 'Golden Triangle'.",
+      "status": "published"
+    }
+  ],
+  "internships": [
+    {
+      "id": "i1",
+      "org": "Shardul Amarchand Mangaldas",
+      "role": "Corporate Law Intern",
+      "loc": "New Delhi (Connaught Place)",
+      "deadline": "June 30, 2026",
+      "desc": "Focus on mergers & acquisitions advisory, contract vetting, legal research, and regulatory compliances.",
+      "cat": "Law Firms",
+      "status": "published",
+      "is_featured": true
+    },
+    {
+      "id": "i2",
+      "org": "Delhi State Legal Services Authority",
+      "role": "Access to Justice Fellow",
+      "loc": "New Delhi",
+      "deadline": "July 15, 2026",
+      "desc": "Assist in legal literacy campaigns, victim compensation processing, and paralegal representation.",
+      "cat": "NGOs",
+      "status": "published",
+      "is_featured": false
+    }
+  ],
+  "news_notifications": [
+    {
+      "id": "n1",
+      "title": "Supreme Court redefines the Right to Privacy in digital surveillance",
+      "date": "June 17, 2026",
+      "desc": "A nine-judge constitutional bench ruled that metadata scanning must adhere strictly to proportional security tests.",
+      "cat": "Supreme Court Updates",
+      "status": "published",
+      "is_pinned": true
+    },
+    {
+      "id": "n2",
+      "title": "Faculty of Law Delhi University Announces Annual Moot Schedule",
+      "date": "June 15, 2026",
+      "desc": "The National Moot Court Trial Advocacy competition registration opens tomorrow. Cash prizes up to 1 Lakh INR.",
+      "cat": "Faculty Announcements",
+      "status": "published",
+      "is_pinned": false
+    }
+  ],
+  "media_library": [
+    {
+      "id": "m1",
+      "name": "du_campus_banner.jpg",
+      "size": "450 KB",
+      "type": "image/jpeg",
+      "url": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&auto=format&fit=crop&q=60",
+      "folder": "Banners",
+      "uploaded_at": "2026-06-10",
+      "usage_count": 2
+    },
+    {
+      "id": "m2",
+      "name": "law_syllabus_bulletin.pdf",
+      "size": "1.4 MB",
+      "type": "application/pdf",
+      "url": "/materials/syllabus.pdf",
+      "folder": "Syllabus Documents",
+      "uploaded_at": "2026-06-12",
+      "usage_count": 1
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": "log_1782629764121_404",
+      "username": "student@lexbriefly.com",
+      "action": "Student Login",
+      "details": "Student authenticated successfully via email.",
+      "timestamp": "2026-06-28T06:56:04.121Z"
+    },
+    {
+      "id": "log_1782629006396_367",
+      "username": "@anuraz",
+      "action": "Admin Login",
+      "details": "Administrator authenticated successfully.",
+      "timestamp": "2026-06-28T06:43:26.396Z"
+    },
+    {
+      "id": "log_initial",
+      "username": "system",
+      "action": "Database Initialized",
+      "details": "Dynamic relational filesystem simulation initialized successfully with default records.",
+      "timestamp": "2026-06-28T06:41:04.251Z"
+    }
+  ],
+  "seo_settings": {
+    "meta_title": "LEX Briefly - Elite Delhi University Faculty of Law Study Deck",
+    "meta_description": "Access verified exam guides, case materials, landmark judgment briefs, and placement desks for DU LL.B campus.",
+    "keywords": "DU LLB, Delhi University, Law Faculty, Case Materials, Landmark Briefs, Law Internships Delhi",
+    "og_title": "LEX Briefly - Digital Academic Companion",
+    "og_description": "Premium academic resources, custom cover letter helper, and real-time judicial updates for Delhi Law Candidates.",
+    "og_image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200",
+    "sitemap_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://lex-briefly.edu/</loc><priority>1.0</priority></url>\n</urlset>"
+  }
+}

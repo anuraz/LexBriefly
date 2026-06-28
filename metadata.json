@@ -1,0 +1,8 @@
+{
+  "name": "LEX Briefly",
+  "description": "A comprehensive legal study companion and learning portal for the Faculty of Law, University of Delhi, powered by server-side Gemini AI for Socratic tutorials, case summarizing, and precedent matching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
